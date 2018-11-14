@@ -1,15 +1,19 @@
-#教程背景
+# 教程背景
+
 由于学习，需要科学上网，使用现成的VPN不好找不说，即便找得到，稳定性也有待考证，而且VPN价格都不便宜，那么，**有成本较低且能够实现科学上网**的方式呢？
+
 有！那就是自己搭梯子！
 
   用了1天的时间，各种找搭梯子的教程，搭梯子的教程往上有很多，但太过于笼统，对于小白不是很友好，且有很重要的一点：**需要购买一台境外的服务器**，比如大家推崇的搬瓦工，最低服务器也需要年付19.9美元，作为小白且脸比兜都干净的我，不免担心，万一自己搭不好，万一买到服务器不稳定，20刀岂不是白花了，毕竟这20刀可以吃好几顿肉呢^_^!
 
 **那有没有只需几元钱，就可以学习搭梯子的方式呢？**
+
 有的，且看教程
 
-#搭建教程
-###1. 购买服务器
-点击此链接https://billing.virmach.com/cart.php?gid=18，进入到如下页面，然后选择$1.25的这款，点**Order Now**。
+# 搭建教程
+### 1. 购买服务器
+点击此链接(https://billing.virmach.com/cart.php?gid=18),
+进入到如下页面，然后选择$1.25的这款，点**Order Now**。
 ![图片1.png](https://upload-images.jianshu.io/upload_images/3752928-74cf4693482ff673.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 如下图所示选择：
@@ -39,7 +43,7 @@
 
 
 
-###2. 部署服务器
+### 2. 部署服务器
 
  开通服务器可能需要等几分钟，根据邮件的提示，最多不超过10分钟
 ![image.png](https://upload-images.jianshu.io/upload_images/3752928-faf1e547d4ba5d37.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
@@ -53,12 +57,14 @@
 ![image.png](https://upload-images.jianshu.io/upload_images/3752928-32a3969fbeac6114.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 开启服务器后进行下一步操作：
-####连接远程Linux服务器
 
-Windows上推荐使用WinSCP+PuTTY（如果会用Xshell，也可以用Xshell来连接），
+#### 连接远程Linux服务器
+
+Windows上推荐使用WinSCP+PuTTY（如果会用Xshell，也可以用Xshell来连接）
 Mac通过Terminal远程连接Linux即可。
 
 WinSCP下载：[WinSCP-5.13.2-Setup.exe](https://jaist.dl.sourceforge.net/project/winscp/WinSCP/5.13.2/WinSCP-5.13.2-Setup.exe)
+
 PuTTY下载：
 [putty-0.70-installer.msi](https://the.earth.li/~sgtatham/putty/latest/w32/putty-0.70-installer.msi)
 [putty-64bit-0.70-installer.msi](https://the.earth.li/~sgtatham/putty/latest/w64/putty-64bit-0.70-installer.msi)
@@ -67,7 +73,7 @@ PuTTY下载：
 
 [![一键脚本搭建SS/搭建SSR服务并开启BBR加速](http://upload-images.jianshu.io/upload_images/3752928-4f9c2601493f3792.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)](https://ws1.sinaimg.cn/large/77c76f11gy1fs0k4t1szxj20r40h2jt5.jpg)
 
-####一键搭建shadowsocks
+#### 一键搭建shadowsocks
 在购买VPS并用PuTTY连接上你刚购买的VPS后，你将看到如下图所示的界面：
 
 [![一键脚本搭建SS/搭建SSR服务并开启BBR加速](http://upload-images.jianshu.io/upload_images/3752928-80d66b84d3355a24.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)](https://ws1.sinaimg.cn/large/77c76f11gy1fs0jnt59zlj20id0ciaao.jpg) 
@@ -86,7 +92,7 @@ PuTTY下载：
 
 [![一键脚本搭建SS/搭建SSR服务并开启BBR加速](http://upload-images.jianshu.io/upload_images/3752928-fe194ed0bde6e16f.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)](https://ws1.sinaimg.cn/large/77c76f11gy1fs0juvuqu5j20id08iwf0.jpg)
 
-####一键开启BBR加速
+#### 一键开启BBR加速
 
 BBR是Google开源的一套内核加速算法，可以让你搭建的shadowsocks/shadowsocksR速度上一个台阶，本一键搭建ss/ssr脚本支持一键升级最新版本的内核并开启BBR加速。
 
@@ -108,7 +114,7 @@ BBR支持4.9以上的，如果低于这个版本则会自动下载最新内容�
 
 后面有bbr，则说明已经开启成功了。
 
-####客户端shadowsocks登录使用
+#### 客户端shadowsocks登录使用
 **Windows客户端:** [https://github.com/shadowsocks/shadowsocks-windows/releases](https://github.com/shadowsocks/shadowsocks-windows/releases)
 **Mac客户端:** [https://github.com/shadowsocks/ShadowsocksX-NG/releases](https://github.com/shadowsocks/ShadowsocksX-NG/releases)
 **Linux客户端:** [https://github.com/shadowsocks/shadowsocks-qt5/wiki/Installation](https://github.com/shadowsocks/shadowsocks-qt5/wiki/Installation)
