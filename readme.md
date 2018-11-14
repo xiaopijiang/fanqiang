@@ -36,7 +36,7 @@
 
 点击之后会弹出输入折扣码的对话框（对话框内会默认一个优惠码，由于我已经购买过，不算新用户，所以没有给我30%的折扣，这是我从网上找的7折优惠码：zhujiceping 终身7折， 仅限新用户，大家可以试一下，应该可以用）
 
-![image.png](https://upload-images.jianshu.io/upload_images/3752928-fbd14aeba395b332.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![图片6.png](https://upload-images.jianshu.io/upload_images/3752928-9c1372ade6bf0356.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 输入优惠码后点击**Validate Code**，价格就会刷新成优惠价格（这里我就使用的默认给我的20%折扣的优惠码，优惠后1刀，合人民币7块钱），之后点击**Checkout**
 
