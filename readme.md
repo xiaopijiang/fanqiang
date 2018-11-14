@@ -17,25 +17,34 @@
 ![图片1.png](https://upload-images.jianshu.io/upload_images/3752928-74cf4693482ff673.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 如下图所示选择：
+
 -选择$1.25 Monthly（这是月付的意思，年付会减免两个月）
+
 -选择Ubuntu 16 64Bit（这里可以自由选择，如果你是小白，先按照教程来）
+
 -选Los Angeles，CA（这是选择机房的位置，据说San Joe，CA（圣何塞）的机房稳定性相对最好，但很少有货，其次是Los Angeles，CA）
+
 ![图片2.png](https://upload-images.jianshu.io/upload_images/3752928-5ffa69f49b0fb366.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 然后在下图的标红处打钩，点击Add to Cart，走你~
+
 ![图片3.png](https://upload-images.jianshu.io/upload_images/3752928-3d10dd63def2d624.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 就会出现下图的页面：然后点击标红的Promo？（这里是输入优惠码的地方，新用户是有一次7折的机会，从1.25变成0.87就是这个原因）
+
 ![图片5.png](https://upload-images.jianshu.io/upload_images/3752928-13347803aba8caa9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 点击之后会弹出输入折扣码的对话框（对话框内会默认一个优惠码，由于我已经购买过，不算新用户，所以没有给我30%的折扣，这是我从网上找的7折优惠码：zhujiceping 终身7折， 仅限新用户，大家可以试一下，应该可以用）
+
 ![image.png](https://upload-images.jianshu.io/upload_images/3752928-fbd14aeba395b332.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 输入优惠码后点击**Validate Code**，价格就会刷新成优惠价格（这里我就使用的默认给我的20%折扣的优惠码，优惠后1刀，合人民币7块钱），之后点击**Checkout**
+
 ![image.png](https://upload-images.jianshu.io/upload_images/3752928-83af4c7ecd5a4e48.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 之后就会跳转到下面的页面。这里稍微说明一下，会有小概率你所购买的IP是被屏蔽了的，万一真的发生了这种情况，也别更换IP了，就申请退款好了。付款方式自由选择，我选择的是支付宝，记得小红框内的选择框打钩，然后点击**Complete Order**
 （在填写注册信息的时候，注意记住邮箱和密码，邮箱就是登录的账号，这个过程中会给你的邮箱发一份验证邮件，你需要登录邮箱验证一下，并且在成功购买后，会把你购买的服务器信息发到你的邮箱）
+
 ![image.png](https://upload-images.jianshu.io/upload_images/3752928-da66b07e3696f354.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ![image.png](https://upload-images.jianshu.io/upload_images/3752928-43c59bc4b3da66cd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
@@ -46,6 +55,7 @@
 ### 2. 部署服务器
 
  开通服务器可能需要等几分钟，根据邮件的提示，最多不超过10分钟
+ 
 ![image.png](https://upload-images.jianshu.io/upload_images/3752928-faf1e547d4ba5d37.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
@@ -54,6 +64,7 @@
 ![image.png](https://upload-images.jianshu.io/upload_images/3752928-4274281eaf73e480.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 在控制台这里，你可以看到服务器的相关信息，也可以进行相应的操作，这里我们只需要确保服务器是开启的状态就可以，即 Status 显示 Online
+
 ![image.png](https://upload-images.jianshu.io/upload_images/3752928-32a3969fbeac6114.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 开启服务器后进行下一步操作：
@@ -116,9 +127,13 @@ BBR支持4.9以上的，如果低于这个版本则会自动下载最新内容�
 
 #### 客户端shadowsocks登录使用
 **Windows客户端:** [https://github.com/shadowsocks/shadowsocks-windows/releases](https://github.com/shadowsocks/shadowsocks-windows/releases)
+
 **Mac客户端:** [https://github.com/shadowsocks/ShadowsocksX-NG/releases](https://github.com/shadowsocks/ShadowsocksX-NG/releases)
+
 **Linux客户端:** [https://github.com/shadowsocks/shadowsocks-qt5/wiki/Installation](https://github.com/shadowsocks/shadowsocks-qt5/wiki/Installation)
+
 **Android/安卓客户端：**[https://github.com/shadowsocks/shadowsocks-android/releases](https://github.com/shadowsocks/shadowsocks-android/releases)
+
 **iOS客户端：**商店搜索Wingy/shadowsocks(美国地区)下载
 
 以Windows为例，依次填入服务器IP，服务器端口，密码（此处的端口和密码是你运行 ss-fly/ss-fly.sh -i password 1024命令时设置的端口和密码），保存配置
